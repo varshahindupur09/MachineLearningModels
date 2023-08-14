@@ -1,0 +1,31 @@
+## RNNs
+
+### Deep Leaning Architectures:
+ * Convolutional Neural Networks (CNNs)
+ * Recurrent Neural Networks (RNNs)
+    - Gated Recurrent Unit (GRU)
+    - Long short-term memory (LSTM) 
+ * Self-Organizing Maps
+ * Auto Encoders
+
+* Sequence Prediction:
+  Statement: won ____ match
+  - She won match
+  - He won match
+  - They won match
+
+Training process of RNNs through forward propogation and gradient descent
+
+RNN: Forward Propogation
+  * Multiple Samples: Each sample is a squence
+  * Same model each step
+      - Layers, nodes, weights, biases and activation functions
+  * Hidden State:
+      - Memory from previous layers,
+      - Additional input from previous time slice
+      - Additional output to next time slice
+
+
+Advanced RNN architectures - GRUs and LSTMs
+
+
