@@ -28,4 +28,72 @@ RNN: Forward Propogation
 
 Advanced RNN architectures - GRUs and LSTMs
 
+Deep Learning
+    - 2/3 additional layers to Neural Networks
+    - Convolutional NN for image recognition
+    - Recurrent NN are used for creating models for sequencial use cases
+        - Gated Recurrent Unit (GRU)
+        - Long Short-Term Memory (LSTM) 
+        - Self-Organization Maps
+        - Auto Encode
+
+
+Applications of DL:
+    - NLP
+    - Speech Recognition and Synthesis
+    - Image Recognition
+    - Self-Driving cars
+    - Customer Experience, Healthcare and Robotics
+
+
+Basic DL Limitations:
+    - Set of inputs -> predicted output
+    - Time factor not considered (Works independent of time)
+    - Not dependent on what happened before and what will happen after (they do not model relationships across time)
+
+
+Sequence Model: Predict model
+    won _ match
+    possible options: HE won HIS match, SHE won HER match, THEY won THEIR match
+    The prediction is depending upon what happened in the prior sequence
+
+
+Sequence Models : Definition:
+    - Predict future sequence based on the past sequence patterns
+    - Has memory of what happened in the past 
+    - Can predict future occurrences
+    - Bi-directional models that can predict based on past and future
+
+
+Architecture of RNN:
+<img src="https://github.com/varshahindupur09/MachineLearningModels/blob/main/simple_rnn.png" />
+    - Here x is the input, y is the output and this same output is then passed back to model for future predictions.
+    - Same neural network is used in each step where this can be simple and deep both
+    - Layers, nodes, weights, biases, & activations
+    - Two inputs: current input & previous hidden state
+    - Two outputs: current output & next hidden state
+
+
+Types: 
+    - Many to Many : Speech Recognition
+    - Many to one: stock price prediction, sentimental analysis
+    - One to Many: (Rare) Music Synthesis, Encoder/Decoder, Machine Translation, Text Summarization
+    - One to One: (no hidden states) 
+
+RNN application:
+    - Time Series Forecasting
+    - Text Classification
+    - Topic Modeling
+    - Sentimental Analysis 
+    - Named entity recognition
+    - Speech to Text & Text to Speech
+    - Machine translation
+    - Question Answering
+    - Text Summarization
+
+
+
+
+
+
 
